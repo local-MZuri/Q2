@@ -1,0 +1,232 @@
+*{
+  border: 1px transparent solid;
+  font-family: 'monaco',  monospace; 
+}
+.nav{
+  background-color: #E3C7B1; 
+  padding: 20px 40px; 
+  position: fixed; 
+  top: 0; left: 0; 
+  width: 100%; 
+  z-index: 1000; 
+  box-sizing: border-box;
+  transition: 1s ease color;
+}
+.nav a:hover{
+  transform: scale(1.2);
+  font-style: italic;
+  text-decoration: none;
+  color:#849483;
+}
+.navlogo{
+    width:fit-content;
+    float:left;
+}
+.logo{ 
+  height: 100px; 
+  width:fit-content;
+  transition: 1s ease;
+}
+.nav .navlogo img:hover{
+  transform:rotate(-20deg);
+}
+.navlinks{
+    display:flex;
+    float:right;
+    position:relative;
+    right:170px;
+    top:35px;
+    justify-content: center;
+    gap:60px; 
+}
+.links{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.happy{ 
+    float:right;
+    position:relative;
+    left:310px;
+    height:100px; 
+    width:100px;
+}
+#head{
+    position:absolute;
+    top: 170px;
+    left: 100px;
+    font-size: 50px;
+    font-style: bold;
+}
+#crumbs{
+  display:inline;
+  position:absolute;
+  top:100px;
+  right:100px;
+  margin: 50px;
+  font-size:18px;
+  font-weight:bold;
+}
+#crumbs a{
+  color:rgba(114, 84, 45, 0.866);
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+#crumbs a:hover{
+  text-decoration: underline;
+  font-style: italic;
+}
+.first{ /*style for the first section with main title, description, and image*/
+  display:flex;
+  align-items: center;
+}
+h3{
+    font-size: 20px;
+    position:absolute;
+    top: 270px;
+    left: 100px;
+}
+#desc{
+    position:absolute;
+    top: 320px;
+    left: 100px;
+    font-size: 15px;
+    width: 60%;
+    text-align: justify;
+}
+#main{
+  float:right;
+  width:24%;
+  height:24%;
+  position:relative;
+  top:310px;
+  left:1030px;
+}
+#head2{
+  width:100%;
+  text-align: center;
+  position:relative;
+  top:350px;
+}
+.second{ /*style for the second section with founder*/
+  background-color: beige;
+  position:relative;
+  bottom:200px;
+  display:flex;
+  margin-top: 600px;
+  margin-bottom: 100px;
+  gap: 24px; /* Adjust gap as needed */
+  align-items: stretch;
+  height: 350px;
+}
+.second > * {
+    flex: 1 1 0;
+    box-sizing: border-box;
+}
+#prof, #desc2{
+  float:right;
+}
+#prof {
+    width: 100%;
+    height: 100%;
+    max-width: 400px; 
+    align-self: center; /* Vertically center the image if paragraphs are taller */
+    object-fit: cover;
+    border: 2px solid brown;
+    display: block;
+}
+#desc1{
+  margin-left:40px;
+  margin-right:20px;
+  position:relative;
+  top:75px;
+}
+#desc2{
+  margin-right:40px;
+  margin-left:20px;
+  position:relative;
+  top:100px;
+}
+.third{
+  position:relative;
+  bottom:230px;
+  text-align: center;
+}
+.images{
+    display: flex;
+    gap: 24px; 
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0;
+}
+.images img{
+    height: 300px; /* Set the same height for all images */
+    width: auto;   /* Allow width to adjust naturally */
+    object-fit: contain;
+    display: block;
+    border-radius: 20px;
+    border: 2px solid brown;
+}
+#footer{
+  background-color: #ccb3a1;
+  color: #452a07;
+  width:100%;
+  position:relative;
+  bottom:200px;
+  display:flex;
+  align-items:normal;
+}
+.res{
+  float:right;
+}
+#logosum{
+  margin: 50px 230px 0px 150px;
+}
+#logo2{
+  width:40%;
+}
+#descsum{
+  width:300px;
+}
+.contact{
+  float:right;
+}
+.images img, #prof{
+  transition:0.5s ease; 
+}
+#prof:hover, .images img:hover{
+  transform: scale(1.2);
+  margin: 10px;
+}
+span:hover{
+  background-color: #77ff92;
+}
+#socials li {
+  margin:0px;
+  list-style: none;
+}
+#socials li a {
+  display: block;
+  width: 64px;    
+  height: 64px;   
+  overflow: hidden;
+  position:relative;
+}
+#fb a {
+  background: url('../images/icons.png') no-repeat -118px -15px;
+  background-size: 300px 282px; 
+}
+#ig a {
+  background: url('../images/icons.png') no-repeat -18px -15px;
+  background-size: 300px 282px;
+  position:relative;
+  left:100px;
+  bottom:67px;
+}
+
