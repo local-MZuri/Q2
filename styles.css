@@ -310,16 +310,17 @@ th {
   position:relative;
 }
 #fb a {
-  background: url('../images/icons.png') no-repeat -118px -15px;
+  background: url('icons.png') no-repeat -118px -15px;
   background-size: 300px 282px; 
 }
 
 #ig a {
-  background: url('../images/icons.png') no-repeat -18px -15px;
+  background: url('icons.png') no-repeat -18px -15px;
   background-size: 300px 282px;
   position:relative;
   left:100px;
   bottom:67px;
 }
+
 
 
